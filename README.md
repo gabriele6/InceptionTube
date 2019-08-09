@@ -8,4 +8,4 @@ python test.py -h
 python test.py "query" "category" n  
 ex: python test.py "surfing sea lion" "sea_lion" 3
 
-NOTE: the scripts requires empty "videos" and "screens" folders in the same directory
+NOTE: the script requires empty "videos" and "screens" folders in the same directory
