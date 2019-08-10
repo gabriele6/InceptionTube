@@ -171,16 +171,14 @@ def youtubeQuery(input_query):
 
 
 # MAIN
-#yt_query = "sea lion"
 yt_query = sys.argv[1]
-#category = "sea_lion"
 category = sys.argv[2]
-#max_vid = 3
 max_vid = int(sys.argv[3])
 videosList = youtubeQuery(yt_query)
 finalList = []
 predictionTime=0
 totalFrames=0
+files_dir = 'screens/'
 
 for video in videosList:
     print(video)
@@ -193,13 +191,10 @@ for video in videosList:
         print("Video parsed!")
         print("processing frames...")
 
-        files_dir = 'screens/'
-
         startPredictions = t.time()
         (predictions_list, nframes) = predict(files_dir)
-        print(predictions_list)
         endPredictions = t.time()
-        predictionTime += endPredictions + startPredictions
+        predictionTime += endPredictions - startPredictions
         totalFrames += nframes
 
         print("Predictions completed!\n")
@@ -218,10 +213,10 @@ for video in videosList:
     if len(finalList) >= max_vid:
         break
 
-
 end = t.time()
 print("Final list:")
-print(el for el in finalList)
+for el in finalList:
+    print (el)
 print("Execution completed in", (end - start), " seconds")
 print("Predictions completed in", predictionTime, " seconds")
 print("Predictions per second: ", nframes/predictionTime)
