@@ -34,6 +34,6 @@ python main.py "surfing sea lion" "sea_lion" 3
 ```
 NOTE: you need `videos/` and `screens/` folders in the same directory  
 ```
-mkdir videos/  
-mkdir screens/  
+$ mkdir videos/  
+$ mkdir screens/  
 ```
