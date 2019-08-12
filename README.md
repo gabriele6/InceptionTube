@@ -1,13 +1,6 @@
 # InceptionTube
 Downloading and classifying Youtube videos with InceptionV3 on Keras/Tensorflow
 
-
-Usage:
-
-
-NOTE: the script requires empty "videos" and "screens" folders in the same directory  
-The full list of available categories can be found in the categories.txt file
-
 ## Installation
 
 Install the environment by using the environment.yml file  
