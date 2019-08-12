@@ -22,8 +22,18 @@ yt = YoutubeInception()
 Now you can run every method in the YoutubeInception class by calling it from the instantiated Object
 ```
 result = yt.youtubeQuery("funny cats video")
+```  
+NOTE: you need `videos/` and `screens/` folders in the same directory  
 ```
-For a non-trivial application, see the main.py file. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
+$ mkdir ./videos  
+$ mkdir ./screens
+```
+
+
+## Non-trivial application
+
+
+Look at the main.py file. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
 Usage:  
 ```
 python main.py "query" "category" n   
@@ -31,9 +41,4 @@ python main.py "query" "category" n
 ex:   
 ```
 python main.py "surfing sea lion" "sea_lion" 3
-```
-NOTE: you need `videos/` and `screens/` folders in the same directory  
-```
-$ mkdir ./videos  
-$ mkdir ./screens
 ```
