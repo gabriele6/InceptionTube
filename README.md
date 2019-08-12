@@ -6,5 +6,5 @@ Usage:
 python main.py "query" "category" n  
 ex: python main.py "surfing sea lion" "sea_lion" 3
 
-NOTE: the script requires empty "videos" and "screens" folders in the same directory
-A list of categories can be found in the categories.txt file
+NOTE: the script requires empty "videos" and "screens" folders in the same directory  
+The full list of available categories can be found in the categories.txt file
