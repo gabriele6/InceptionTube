@@ -1,5 +1,5 @@
 # InceptionTube
-Downloading and classifying Youtube videos with InceptionV3 on Keras/Tensorflow
+A library for downloading and classifying Youtube videos with Inception V3 on Keras/Tensorflow
 
 ## Installation
 
