@@ -5,7 +5,7 @@ A library for downloading and classifying Youtube videos with Inception V3 on Ke
 
 Install the environment by using the environment.yml file  
 ```
-conda env create -f environment.yml  
+$ conda env create -f environment.yml  
 ```
 
 ## How to use
@@ -40,5 +40,5 @@ python main.py "query" "category" n
 ```  
 ex:   
 ```
-python main.py "surfing sea lion" "sea_lion" 3
+$ python main.py "surfing sea lion" "sea_lion" 3
 ```
