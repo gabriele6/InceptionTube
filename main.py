@@ -1,4 +1,4 @@
-from youtube_inception import YTIncept
+from youtube_inception import YoutubeInception
 import sys
 import urllib.request
 import urllib.parse
@@ -8,7 +8,7 @@ import time as t
 
 start = t.time()
 
-yt = YTIncept()
+yt = YoutubeInception()
 
 yt_query = sys.argv[1]
 category = sys.argv[2]
@@ -25,17 +25,20 @@ for video in videosList:
     print("Exploring video folder")
     for filename in os.listdir(yt.getVideoPath()):
         filepath = yt.getVideoPath() + filename
+        yt.extractImages(filename)
 
+        print("Video parsed!")
+        print("processing frames...")
 
         startPredictions = t.time()
-        (predictions_list, nframes) = yt.extractAndPredict(filename)
+        (predictions_list, nframes) = yt.predict()
         endPredictions = t.time()
         predictionTime += endPredictions - startPredictions
         totalFrames += nframes
 
         print("Predictions completed!\n")
 
-        keys = yt.applyActivationFilter(predictions_list)
+        keys = yt.applyThresholdFilter(predictions_list)
         countFreq = yt.CountFrequency(keys)
         filtered = yt.applyPercentageFilter(countFreq, nframes)
         print(filtered)
