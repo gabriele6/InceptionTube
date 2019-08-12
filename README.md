@@ -30,11 +30,12 @@ Now you can run every method in the YoutubeInception class by calling it from th
 ```
 result = yt.youtubeQuery("funny cats video")
 ```  
-NOTE: you need `videos/` and `screens/` folders in the same directory  
+NOTE: by default, you need `videos/` and `screens/` folders in the same directory.  
 ```
 $ mkdir ./videos  
 $ mkdir ./screens
 ```
+You can change the directories by using the setVideoPath and setScreensPath methods.
 
 
 ## Non-trivial application
