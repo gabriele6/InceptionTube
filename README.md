@@ -50,5 +50,5 @@ ex:
 $ python main.py "surfing sea lion" "sea_lion" 3
 ```
 The final output is a list of n videos containing the requested category.  
-Please note, it may take a while to execute, depending on your hardware's capabilities and download speed.  
 ![alt text](https://i.imgur.com/gfzolLJ.png)
+Please note, it may take a while to execute, depending on your hardware's capabilities and download speed.  
