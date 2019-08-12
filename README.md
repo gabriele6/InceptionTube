@@ -3,9 +3,16 @@ A library for downloading and classifying Youtube videos with Inception V3 on Ke
 
 ## Installation
 
+Create a new folder and clone the repository  
+```
+mkdir InceptionTube
+cd InceptionTube
+git clone git remote add origin https://github.com/gabriele6/InceptionTube.git
+git pull origin master
+```
 Install the environment by using the environment.yml file  
 ```
-$ conda env create -f environment.yml  
+$ conda env create -f environment.yml
 ```
 
 ## How to use
