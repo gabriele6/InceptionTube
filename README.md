@@ -10,16 +10,16 @@ conda env create -f environment.yml
 
 ## How to use
 
-Get into the Conda environment created  
+From your terminal, get into the Conda environment created:  
 ```
-source activate test.py
+$ source activate test.py
 ```
-The library contains an instantiable class  
+The library contains an instantiable class. Create a `my_script.py` file, put this in it 
 ```
-from youtube_inception import YTIncept 
-yt = YTIncept()
+from youtube_inception import YoutubeInception 
+yt = YoutubeInception()
 ```
-Now you can run every method by calling it from the instantiated Object
+Now you can run every method in the by calling it from the instantiated Object
 ```
 result = yt.youtubeQuery("funny cats video")
 ```
