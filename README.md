@@ -19,7 +19,7 @@ The library contains an instantiable class. Create a `my_script.py` file, put th
 from youtube_inception import YoutubeInception 
 yt = YoutubeInception()
 ```
-Now you can run every method in the by calling it from the instantiated Object
+Now you can run every method in the YoutubeInception class by calling it from the instantiated Object
 ```
 result = yt.youtubeQuery("funny cats video")
 ```
