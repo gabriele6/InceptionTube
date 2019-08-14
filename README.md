@@ -9,10 +9,17 @@ mkdir InceptionTube
 cd InceptionTube
 git clone git remote add origin https://github.com/gabriele6/InceptionTube.git
 git pull origin master
+cd InceptionTube
+pip install .
 ```
 Install the environment by using the environment.yml file  
 ```
 $ conda env create -f environment.yml
+```
+
+You can also install it from the package index
+```
+pip install inceptiontube
 ```
 
 ## How to use
@@ -21,14 +28,13 @@ From your terminal, get into the Conda environment created:
 ```
 $ source activate test.py
 ```
-The library contains an instantiable class. Create a `my_script.py` file, put this in it 
+Create a `my_script.py` file, import the package  
 ```
-from youtube_inception import YoutubeInception 
-yt = YoutubeInception()
+import inceptiontube
 ```
-Now you can run every method in the YoutubeInception class by calling it from the instantiated Object
+Now you can run every method in the package
 ```
-result = yt.youtubeQuery("funny cats video")
+result = youtubeQuery("funny cats video")
 ```  
 
 
@@ -43,14 +49,14 @@ You can change the directories by using the setVideoPath and setScreensPath meth
 ## Non-trivial application
 
 
-Look at the main.py file. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
+The package contains a non-trivial application. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
 Usage:  
 ```
-python main.py "query" "category" n   
+downloadAndClassify( "query" "category" n )  
 ```  
 ex:   
 ```
-$ python main.py "surfing sea lion" "sea_lion" 3
+downloadAndClassify( "surfing sea lion" "sea_lion" 3 )
 ```
 The final output is a list of n videos containing the requested category.  
 ![alt text](https://i.imgur.com/gfzolLJ.png)  
