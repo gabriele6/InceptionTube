@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: inceptiontube
+Version: 0.1
+Summary: Using InceptionV3 to scrape and classify youtube videos
+Home-page: http://github.com/gabriele6/InceptionTube
+Author: Gabriele Tenucci
+Author-email: tenucci.gabriele@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

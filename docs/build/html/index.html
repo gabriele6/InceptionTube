@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to inceptiontube’s documentation! &mdash; inceptiontube 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/sphinxmark.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> inceptiontube
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to inceptiontube’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#module-inceptiontube.__init__">inceptiontube init</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">inceptiontube</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Welcome to inceptiontube’s documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-inceptiontube-s-documentation">
+<h1>Welcome to inceptiontube’s documentation!<a class="headerlink" href="#welcome-to-inceptiontube-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="module-inceptiontube.__init__">
+<span id="inceptiontube-init"></span><h1>inceptiontube init<a class="headerlink" href="#module-inceptiontube.__init__" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="inceptiontube.__init__.CountFrequency">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">CountFrequency</code><span class="sig-paren">(</span><em class="sig-param">my_list</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.CountFrequency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Counts the frequency of every prediction, creates an ordered dictionary (from most to least frequent)
+of the predictions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>my_list</strong> (<em>String</em><em>[</em><em>]</em>) – Array of predictions</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>OrderedDict containing the predictions and their frequencies</p>
+</dd>
+<dt class="field-odd">Note</dt>
+<dd class="field-odd"><p>this should follow the predict() method and should take the predictions array as input</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.applyPercentageFilter">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">applyPercentageFilter</code><span class="sig-paren">(</span><em class="sig-param">dict</em>, <em class="sig-param">nframes</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.applyPercentageFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns only the items contained in at least PERCENTAGE % of frames</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dict</strong> (<em>OrderedDict</em>) – Dictionary containing the predictions to be filtered</p></li>
+<li><p><strong>nframes</strong> (<em>Integer</em>) – number of frames collected from the whole video</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>OrderedDict containing the filtered predictions</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.applyThresholdFilter">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">applyThresholdFilter</code><span class="sig-paren">(</span><em class="sig-param">predictions_list</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.applyThresholdFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Filters out the predictions in the input list which have lower confidence than ACTIVATION_THRESHOLD</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>predictions_list</strong> – List of predictions</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Array containing the predictions above ACTIVATION_THRESHOLD</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.clearScreens">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">clearScreens</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.clearScreens" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes every frame extracted in the screens folder</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>1 if exception is raised</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.clearVideos">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">clearVideos</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.clearVideos" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>1 if exception is raised</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.downloadAndClassify">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">downloadAndClassify</code><span class="sig-paren">(</span><em class="sig-param">yt_query</em>, <em class="sig-param">category</em>, <em class="sig-param">max_vid</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.downloadAndClassify" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls the requested query on youtube, downloads videos until it finds n of them containing the requested category</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>yt_query</strong> (<em>String</em>) – The query to submit</p></li>
+<li><p><strong>category</strong> (<em>String</em>) – The category to search for</p></li>
+<li><p><strong>max_vid</strong> (<em>Integer</em>) – The number of videos containing the requested category to look for</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A list of the first n videos containing the requested category</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.downloadVideo">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">downloadVideo</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.downloadVideo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Downloads a video to the videos folder from a Youtube URL.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>url</strong> (<em>String</em>) – The URL of the video to download inside the current video folder</p>
+</dd>
+<dt class="field-even">Note</dt>
+<dd class="field-even"><p>Tries to download the best resolution lesser or equal than 480p, for optimization purposes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.extractAndPredict">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">extractAndPredict</code><span class="sig-paren">(</span><em class="sig-param">video_name</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.extractAndPredict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Combines extractImages() and predict() to extract frames and predict them immediately,
+instead of saving them in the screens folder in extractImages() and loading them again in predict()</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>video_name</strong> (<em>String</em>) – Name of the video to analyze in the video folder</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A list of predictions and the number of frames processed</p>
+</dd>
+<dt class="field-odd">Note</dt>
+<dd class="field-odd"><p>this may be slower than using the two functions separately.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.extractImages">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">extractImages</code><span class="sig-paren">(</span><em class="sig-param">video_name</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.extractImages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes a video and extracts a frame every frameDelay milliseconds, saves them in the screens folder</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>video_name</strong> (<em>String</em>) – Name of the video contained in the video path</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Number of frames extracted from the video</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.getScreensPath">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">getScreensPath</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.getScreensPath" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>String containing the path to the current screens folder</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.getVideoPath">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">getVideoPath</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.getVideoPath" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>String containing the path to the current video folder</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.loadImageFromFile">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">loadImageFromFile</code><span class="sig-paren">(</span><em class="sig-param">filepath</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.loadImageFromFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads an image and prepares it for the InceptionV3 prediction</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filepath</strong> (<em>String</em>) – String containing the path of the image to load</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Array containing the inceptionV3-ready image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.predict">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">predict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Analyzes every frame in the screens folder, and puts every predictions in the same list (duplicates are expected)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list of predictions and the number of frames processed</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.predictFromFolder">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">predictFromFolder</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.predictFromFolder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Like predict(), but works for a different folder than the standard one</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> (<em>String</em>) – Path to the folder</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A list of predictions and the number of frames processed</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.predictSingle">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">predictSingle</code><span class="sig-paren">(</span><em class="sig-param">filepath</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.predictSingle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Like predict(), but works for a single image</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filepath</strong> (<em>String</em>) – Path of the image to predict</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A list of predictions</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.prepareImage">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">prepareImage</code><span class="sig-paren">(</span><em class="sig-param">image</em>, <em class="sig-param">target</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.prepareImage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Preprocesses an image to be analysed with InceptionV3</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>image</strong> (<em>PIL image</em>) – Image to convert</p></li>
+<li><p><strong>target</strong> (<em>(</em><em>Integer</em><em>, </em><em>Integer</em><em>)</em>) – target=(299, 299) for InceptionV3</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Array containing the inceptionV3-ready image</p>
+</dd>
+<dt class="field-odd">Note</dt>
+<dd class="field-odd"><p>This should be used with an image extracted by cv2.read(), otherwise loadImageFromFile()</p>
+</dd>
+</dl>
+<p>should be used instead</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.setActivationThreshold">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">setActivationThreshold</code><span class="sig-paren">(</span><em class="sig-param">ar</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.setActivationThreshold" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ar</strong> (<em>Float between 0.1 and 1</em>) – The new activation threshold</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>1 if value is not correct</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.setDelay">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">setDelay</code><span class="sig-paren">(</span><em class="sig-param">fps</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.setDelay" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>fps</strong> (<em>Integer between 1 and 1000</em>) – Indicates how many frames per second to extract from the video</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>1 if value is not correct</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.setPercentage">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">setPercentage</code><span class="sig-paren">(</span><em class="sig-param">pt</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.setPercentage" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pt</strong> (<em>Float between 1 and 100</em>) – The new percentage threshold</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>1 value is not correct</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.setScreensPath">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">setScreensPath</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.setScreensPath" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> (<em>String</em>) – The screens folder path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.setVideoPath">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">setVideoPath</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.setVideoPath" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> (<em>String</em>) – The video folder path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="inceptiontube.__init__.youtubeQuery">
+<code class="sig-prename descclassname">inceptiontube.__init__.</code><code class="sig-name descname">youtubeQuery</code><span class="sig-paren">(</span><em class="sig-param">input_query</em><span class="sig-paren">)</span><a class="headerlink" href="#inceptiontube.__init__.youtubeQuery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Inputs a query on Youtube and returns a list of video URLs</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>input_query</strong> (<em>String</em>) – The query to search on YouTube</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List containing the URLs</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Gabriele Tenucci
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
