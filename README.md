@@ -7,8 +7,7 @@ Create a new folder and clone the repository
 ```
 mkdir InceptionTube
 cd InceptionTube
-git clone git remote add origin https://github.com/gabriele6/InceptionTube.git
-git pull origin master
+git clone origin https://github.com/gabriele6/InceptionTube.git
 cd InceptionTube
 pip install .
 ```
