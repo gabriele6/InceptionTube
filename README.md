@@ -55,11 +55,11 @@ You can change the directories by using the setVideoPath and setScreensPath meth
 The package contains a non-trivial application. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
 Usage:  
 ```
-downloadAndClassify( "query" "category" n )  
+downloadAndClassify( "query", "category", n )  
 ```  
 ex:   
 ```
-downloadAndClassify( "surfing sea lion" "sea_lion" 3 )
+downloadAndClassify( "surfing sea lion", "sea_lion", 3 )
 ```
 The final output is a list of n videos containing the requested category.  
 ![alt text](https://i.imgur.com/gfzolLJ.png)  
