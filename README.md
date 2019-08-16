@@ -47,6 +47,8 @@ $ mkdir ./screens
 ```
 You can change the directories by using the setVideoPath and setScreensPath methods.
 
+The full code documentation can be found in `docs/build/html/index.html`  
+
 
 ## Non-trivial application
 
