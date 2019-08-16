@@ -52,7 +52,7 @@ You can change the directories by using the setVideoPath and setScreensPath meth
 ## Non-trivial application
 
 
-The package contains a non-trivial application. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
+The package contains a non-trivial application of the library. It calls a Youtube query and analyzes videos until it finds the first n videos containing the requested category.  
 Usage:  
 ```
 downloadAndClassify( "query", "category", n )  
