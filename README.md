@@ -9,12 +9,13 @@ mkdir InceptionTube
 cd InceptionTube
 git clone origin https://github.com/gabriele6/InceptionTube.git
 cd InceptionTube
-pip install .
 ```
 Install the environment by using the environment.yml file  
-```
 $ conda env create -f environment.yml
 ```
+pip install .
+```
+
 
 You can also install it from the package index
 ```
