@@ -8,7 +8,6 @@ Create a new folder and clone the repository
 mkdir InceptionTube
 cd InceptionTube
 git clone origin https://github.com/gabriele6/InceptionTube.git
-cd InceptionTube
 ```
 Install the environment by using the environment.yml file  
 ```
