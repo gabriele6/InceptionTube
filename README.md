@@ -11,7 +11,10 @@ git clone origin https://github.com/gabriele6/InceptionTube.git
 cd InceptionTube
 ```
 Install the environment by using the environment.yml file  
+```
 $ conda env create -f environment.yml
+```
+Install the package
 ```
 pip install .
 ```
