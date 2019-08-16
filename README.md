@@ -14,7 +14,7 @@ Install the environment by using the environment.yml file
 ```
 $ conda env create -f environment.yml
 ```
-Install the package
+Finally, install the package
 ```
 pip install .
 ```
